@@ -33,6 +33,7 @@ target_link_libraries(projectM-pulseaudio
         PRIVATE
         projectM-qt
         Pulseaudio::Pulseaudio
+        GL
         ${CMAKE_DL_LIBS}
         )
 
